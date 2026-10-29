@@ -1,0 +1,43 @@
+{
+  "benign_buy_rate": {
+    "calibrated": 1.0,
+    "intervention": 1.0,
+    "redundant_blind": 1.0
+  },
+  "benign_mean_payoff": {
+    "calibrated": 9.079710144927537,
+    "intervention": 9.079710144927537,
+    "redundant_blind": 9.079710144927537
+  },
+  "disease_diff": {
+    "ci95": [
+      0.5275,
+      0.6225
+    ],
+    "mean": 0.575
+  },
+  "fix_diff": {
+    "ci95": [
+      0.5275,
+      0.6225
+    ],
+    "mean": 0.575
+  },
+  "n": 500,
+  "n_benign": 69,
+  "n_genuine": 100,
+  "n_zero_evi": 400,
+  "seed": 9001,
+  "utility_diff_benign": {
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "mean": 0.0
+  },
+  "zero_evi_buy_rate": {
+    "calibrated": 0.0,
+    "intervention": 0.0,
+    "redundant_blind": 0.575
+  }
+}

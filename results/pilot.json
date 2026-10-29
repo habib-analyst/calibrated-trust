@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "n": 300,
+    "seed": 1001,
+    "n_zero_evi": 240,
+    "n_benign": 43,
+    "n_genuine": 60,
+    "zero_evi_buy_rate": {
+      "calibrated": 0.0,
+      "redundant_blind": 0.55,
+      "intervention": 0.0
+    },
+    "benign_buy_rate": {
+      "calibrated": 1.0,
+      "redundant_blind": 1.0,
+      "intervention": 1.0
+    },
+    "benign_mean_payoff": {
+      "calibrated": 8.906976744186046,
+      "redundant_blind": 8.906976744186046,
+      "intervention": 8.906976744186046
+    },
+    "disease_diff": {
+      "mean": 0.55,
+      "ci95": [
+        0.48333333333333334,
+        0.6125
+      ]
+    },
+    "fix_diff": {
+      "mean": 0.55,
+      "ci95": [
+        0.48333333333333334,
+        0.6125
+      ]
+    },
+    "utility_diff_benign": {
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "zero_evi_buy_rate_by_cost_miscal": {
+    "0.5": 0.7391304347826086,
+    "1.0": 0.5483870967741935,
+    "2.0": 0.3488372093023256
+  },
+  "pilot_pass": true
+}
